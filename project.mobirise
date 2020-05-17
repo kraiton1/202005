@@ -1,0 +1,655 @@
+{
+  "settings": {
+    "name": "Cost Per Action",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "purity",
+      "title": "PurityM",
+      "styling": {},
+      "additionalSetColors": [
+        "#085a1e",
+        "#f90700",
+        "#0be646",
+        "#051e2a"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.12.3",
+    "siteFonts": [],
+    "uniqCompNum": 24,
+    "versionPublish": "4.12.3",
+    "screenshot": "screenshot.png",
+    "imageResize": true,
+    "favicon": "@PROJECT_PATH@/assets/images/128x213.png",
+    "robotsSwitcher": true,
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "google-analytics": "<script language='JavaScript1.2'>\nfunction disableselect(e){\nreturn false\n}\nfunction reEnable(){\nreturn true\n}\ndocument.onselectstart=new Function (\"return false\")\nif (window.sidebar){\ndocument.onmousedown=disableselect\ndocument.onclick=reEnable\n}\n</script>\n\n\n",
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": "on",
+    "siteUrl": false,
+    "cookiesAlert": {
+      "customDialogSelector": false,
+      "colorText": "#424a4d",
+      "colorBg": "#eaeff1",
+      "colorButton": "",
+      "colorLink": "#424a4d",
+      "underlineLink": false,
+      "opacity": "99",
+      "opacityOverlay": "80",
+      "text": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
+      "textButton": "Agree"
+    },
+    "gdpr": {
+      "colorText": "#a7a7a7",
+      "colorLink": "#149dcc",
+      "underlineLink": false,
+      "text": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
+    }
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "1 Project",
+        "meta_descr": "Принцип работы партнёрского маркетинга \nСделай  действие - приведи покупателя\nполучи  оплату - это вознаграждение ",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1406.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff8e0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#d5f4f0",
+            "overlayOpacity": "0.3"
+          },
+          "title": "<b>Что такое <br>Cost Per Action</b>",
+          "text": "<br>\n<br><b>Cost Per Action</b><br>&nbsp;это оплата за действие &nbsp;<br>Принцип <br>работы <br>партнёрского маркетинга<br> \n<br><b>приведи покупателя&nbsp;<br>получи за это вознаграждение </b>&nbsp;<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">Download Now</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\">Learn More</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-0",
+          "_styles": {
+            "P": {
+              "font-size": "30px"
+            },
+            "H1": {
+              "color": "#0be646"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showName": true,
+            "showBio": true,
+            "count": 3,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1011.jpeg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff8e0",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "header": "3 вида <br>участников<br>в <br>партнёрском маркетинге<br><br>",
+          "items": [
+            {
+              "authorName": "Рекламодатель",
+              "authorBio": "Петров ...",
+              "text": "<div><b>Это интернет-магазин или онлайн-сервис &nbsp;</b><br></div><div><b>который хочет продавать больше товаров и услуг новым и старым клиентам \r</b></div><div><b>и готов заплатить за каждого приведённого покупателя \r</b></div><div><b>фиксированную сумму или часть от дохода</b></div>"
+            },
+            {
+              "authorName": "Веб-мастер",
+              "authorBio": "Иванов ...",
+              "text": "<div><b>Компания или человек который знает \n</b></div><div><b>как и где найти покупателя на эти товары или услуги \n</b></div><div><b>Это может быть блогер \n</b></div><div><b>владелец сайта или сообщества в соцсети \n</b></div><div><b>специалист по контекстной или таргетированной рекламе \n</b></div><div><b>или просто активный пользователь интернета \n</b></div><div><b>который любит писать отзывы \n</b></div><div><b>обзоры и рекомендации</b></div>"
+            },
+            {
+              "authorName": "Партнёрская сеть",
+              "authorBio": "Платформа",
+              "text": "<div><b>Платформа которая объединяет веб-мастеров и рекламодателей \n</b></div><div><b>даёт инструменты для работы и следит за её качеством \n</b></div><div><b>Задача сделать для каждого веб-мастера свою уникальную ссылку и отследить \n</b></div><div><b>какие действия по ней совершаются \n</b></div><div><b>Если по этой ссылке будут переходить пользователи \n</b></div><div><b>рекламодатель будет видеть \n</b></div><div><b>какой именно веб-мастер привел покупателя \n</b></div><div><b>и начислять вознаграждение за каждую продажу</b></div>"
+            }
+          ],
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "_anchor": "testimonials1-2",
+          "testimonial": [
+            {
+              "authorName": "Рекламодатель",
+              "authorBio": "Петров ...",
+              "text": "<div><b>Это интернет-магазин или онлайн-сервис &nbsp;</b><br></div><div><b>который хочет продавать больше товаров и услуг новым и старым клиентам \r</b></div><div><b>и готов заплатить за каждого приведённого покупателя \r</b></div><div><b>фиксированную сумму или часть от дохода</b></div>"
+            },
+            {
+              "authorName": "Веб-мастер",
+              "authorBio": "Иванов ...",
+              "text": "<div><b>Компания или человек который знает \n</b></div><div><b>как и где найти покупателя на эти товары или услуги \n</b></div><div><b>Это может быть блогер \n</b></div><div><b>владелец сайта или сообщества в соцсети \n</b></div><div><b>специалист по контекстной или таргетированной рекламе \n</b></div><div><b>или просто активный пользователь интернета \n</b></div><div><b>который любит писать отзывы \n</b></div><div><b>обзоры и рекомендации</b></div>"
+            },
+            {
+              "authorName": "Партнёрская сеть",
+              "authorBio": "Платформа",
+              "text": "<div><b>Платформа которая объединяет веб-мастеров и рекламодателей \n</b></div><div><b>даёт инструменты для работы и следит за её качеством \n</b></div><div><b>Задача сделать для каждого веб-мастера свою уникальную ссылку и отследить \n</b></div><div><b>какие действия по ней совершаются \n</b></div><div><b>Если по этой ссылке будут переходить пользователи \n</b></div><div><b>рекламодатель будет видеть \n</b></div><div><b>какой именно веб-мастер привел покупателя \n</b></div><div><b>и начислять вознаграждение за каждую продажу</b></div>"
+            }
+          ],
+          "_styles": {
+            ".card-footer > div": {
+              "font-size": "25px",
+              "color": "#0275d8"
+            },
+            ".card-block DIV": {
+              "font-size": "19px",
+              "text-align": "center"
+            },
+            ".card-block P": {
+              "text-align": "right",
+              "font-size": "16px"
+            },
+            ".card-block": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "color": "#0275d8"
+            },
+            ".card-block B": {
+              "font-size": "19px"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center"
+            },
+            ".lead P": {
+              "font-size": "30px"
+            },
+            ".mbr-section-title": {
+              "color": "#0275d8"
+            },
+            ".btn": {
+              "font-size": "30px",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButton": true,
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1080.png",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#FFF8E0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#feeaba",
+            "overlayOpacity": "0.6"
+          },
+          "title": "<b>Схема работы партнёрского маркетинга</b><br><br>",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p><b>Партнёрская сеть даёт веб-мастеру специальную ссылку на сайт рекламодателя</b></p><p><span style=\"font-size: 1.25rem;\"><b>По этой ссылке веб-мастер приводит на сайт рекламодателя пользователя</b></span></p><p><span style=\"font-size: 1.25rem;\"><b>Пользователь совершает покупку</b></span></p><p><span style=\"font-size: 1.25rem;\"><b>Рекламодатель видит в статистике своего магазина</b></span></p><p><b>что конкретный веб-мастер привёл конкретного покупателя\n</b></p><p><b>&nbsp;<span style=\"font-size: 1.25rem;\">Если покупатель получил товар</span></b></p><p><b>оплатил его и не вернул \n</b></p><p><b>веб-мастер получает вознаграждение\n</b></p><p><br></p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success-outline btn-success\" href=\"#bottom\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-paper-plane mbr-iconfont mbr-iconfont-btn\"></span>К  БОНУСУ</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-3"
+        },
+        {
+          "text": "<p><b>Рекламодателю</b></p><p>нужно</p><p>чтобы вы продавали его товары или услуги \n</p><p>а также продвигали его бренд в интернете \n</p><p>Для этого он запускает партнёрскую программу \n</p><p>или оффер </p><p> это список условий и правил \n</p><p>по которым веб-мастера могут с ним работать\n</p><p>__________________________________________________</p><p><b>Есть несколько типов офферов рекламодателей</b></p><p><b>***</b></p><p><b><i>Интернет-магазины\n</i></b></p><p><b><i>\nОнлайн-сервисы</i></b>&nbsp;</p><p><i><b>\nФинансовые офферы</b></i>&nbsp;</p><p><i><b>\nОнлайн-игры&nbsp;</b></i></p><p><i><b>\nТуристические услуги</b></i>&nbsp;</p><p><b><i>\nМобильные офферы&nbsp;</i></b></p><p>__________________________________________________</p><p><br></p><p>Все бренды<br></p><p>с которыми можно работать\n</p><p>собраны в каталоге\n</p><p>Веб-мастер может продвигать как отдельный продукт \n</p><p>так и весь бренд магазина \n</p><p>в котором он представлен</p><p>---------------------------------------------------------------</p><p>Также рекламодатели различаются по <b>ГЕО</b> \n</p><p>географии работы \n</p><p>\n</p><p>В описании партнёрской программы указывается</p><p> регион или страна где работает магазин &nbsp; &nbsp;</p><p>При работе с оффером  это надо учитывать</p><p>так как во многих магазинах доставка возможна только в </p><p>пределах определённой страны\n</p><p>В описании партнёрской программы может уточняться \n</p><p>в каких конкретно городах работает компания \n</p><p>Поэтому приводите в магазины и сервисы только тех </p><p>клиентов \n</p><p>которые не только хотят \n</p><p>но и имеют физическую возможность получить товар </p><p>или услугу</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-4",
+          "_styles": {
+            "P": {
+              "text-align": "center",
+              "font-size": "32px"
+            },
+            "DIV": {
+              "color": "#085a1e"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showCaption": true,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-1920x1271.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff8e0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#abdbf2",
+            "overlayOpacity": "0.7"
+          },
+          "title": "<b>За что рекламодатели платят <br>веб-мастерам</b><br><br>",
+          "caption": "<p>То что &nbsp; называется &nbsp;</p><p><b>CPA </b></p><p>является моделью оплаты \n</p><p>то есть показывает \n</p><p>за что веб-мастер может получить вознаграждение</p><p>* * *</p><p> \n</p><p>Задача веб-мастера  \n</p><p>сделать так \n</p><p>чтобы покупатель совершил на сайте рекламодателя определённое целевое действие\n</p><p>За это веб-мастер и получает оплату \n</p><p>В зависимости от партнёрской программы \n</p><p>действия \n</p><p>которые должен сделать пользователь \n</p><p>могут различаться</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-6",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "center",
+              "color": "#0275d8"
+            },
+            "P": {
+              "text-align": "center",
+              "font-size": "30px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitles": true,
+            "showCaptions": true,
+            "paddingTop": "0",
+            "paddingBottom": 3,
+            "columns": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff8e0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title1": "<b>CPS</b> <br>оплата за продажу&nbsp;<br><br><br><div>пользователь должен совершить покупку оформить заказ&nbsp;\n</div><div>оплатить его получить и не вернуть&nbsp;\n</div><div>в установленные законом сроки&nbsp;\n</div><div>&nbsp;встречается в интернет-магазинах&nbsp;<span style=\"color: inherit;\">которые продают конкретные</span></div><div>физические товары&nbsp;</div><div><span style=\"color: inherit;\">Если в качестве вознаграждения рекламодатель платит долю от суммы покупки&nbsp;</span></div><div>то веб-мастер получает</div><div>% &nbsp;<span style=\"color: inherit;\">от всей суммы</span></div>",
+          "caption1": "",
+          "title2": "<b>CPL</b> <br>оплата за лид<br><br><br><br><div><div>по-другому лид \n</div></div><div>может называться - регистрацией \n</div><div>Пользователь должен оставить на сайте свои данные \n</div><div>Регистрация должна быть качественная \n</div><div>то есть пользователь должен оплатить услуги сервиса или потенциально иметь намерение сделать это \n</div><div>Чаще всего встречается в онлайн-сервисах \n</div><div>или финансовых офферах&nbsp;</div>",
+          "caption2": "",
+          "title3": "<b>CPI</b> <br>оплата <br>за установку<br><br><br><div>Используется в мобильных офферах \n</div><div>рекламодатель платит за пользователя \n</div><div>который </div><div>установил приложение на своё </div><div>мобильное устройство \n</div><div>Для проверки </div><div>качества пользователя смотрят \n</div><div>как и сколько раз </div><div>после </div><div>установки он взаимодействовал </div><div>с </div><div>приложением</div>",
+          "caption3": "",
+          "title4": "<b>CPP</b> <br>оплата за активного игрока&nbsp;<br><br><div>используют </div><div>онлайн-игры \n</div><div>оплата идёт за нового игрока \n</div><div>который зарегистрировался в игре \n</div><div>Активный игрок показатель качества \n</div><div>рекламодатель </div><div>смотрит </div><div>как часто пользователь</div><div>заходит </div><div>в игру после установки </div><div>и что он </div><div>там</div><div>делал</div>",
+          "caption4": "",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_anchor": "content4-7",
+          "_styles": {
+            "DIV": {
+              "font-size": "16px",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitles": true,
+            "showCaptions": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "columns": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff8e0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title1": "<b>CPC</b><br> оплата за клики&nbsp;<br><br>",
+          "caption1": "Рекламодатель платит за переход пользователя на его сайт \n<br>Используется информационными ресурсами для увеличения посещаемости сайта&nbsp;",
+          "title2": "<b>CPM</b> <br>оплата за 1000 просмотров&nbsp;<br><br>",
+          "caption2": "Рекламодатель платит за каждую тысячу показов<br>баннера ведущего на его магазин <br>или сервис &nbsp;<br>",
+          "title3": "Web Fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Websites",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_anchor": "content4-8",
+          "_styles": {
+            "P": {
+              "text-align": "center",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "color": "#f90700"
+            },
+            ".lead P": {
+              "font-size": "25px"
+            },
+            ".btn": {
+              "font-size": "36px",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButton": true,
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#FFF8E0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "<b>Подтвержденное действие</b><br><br>",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Подтверждённое действие в <b>CPS</b>  покупка является таковым лишь в том случае если покупатель оплатил товар или услугу получил его и не вернул то есть рекламодатель 100% получил деньги и закрыл заказ . \n</p><p>Подтверждённое намерение сделать заказ в <b>CPL</b>  показатель качества клиента который потенциально может стать покупателем но на это понадобится время\n</p><p>&nbsp;Именно такую заявку называют «качественной» в модели оплаты <b>CPL</b> например если человек заполнил анкету на получение банковской карты и при общении с менеджером банка подтвердил своё желание. \n</p><p>То же касается установки мобильных приложений и регистрации в онлайн-играх пользователь должен сделать целевые действия например достигнуть уровня в игре вернуться в приложение в течение недели .\n</p><p>Всё это сделано для того чтобы веб-мастера не «накручивали» действия с помощью ботов выдавая их за настоящих покупателей.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success-outline btn-success\" href=\"#bottom\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-star mbr-iconfont mbr-iconfont-btn\"></span>К  БОНУСУ</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-d"
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center"
+            },
+            ".lead P": {
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "font-size": "24px"
+            },
+            ".mbr-section-title": {
+              "color": "#0275d8"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButton": false,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#FFF8E0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "<b>Кто такие </b><b>веб-мастера</b>",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p><br></p><p>Веб-мастер это человек или компания &nbsp;у которых есть трафик</p><p><b>Трафик &nbsp;</b><br></p><p>это любые пользователи которые потенциально могут &nbsp;быть заинтересованы в &nbsp;совершении покупки .<br></p><p>У веб-мастера есть &nbsp;площадка или бизнес-модель &nbsp;с помощью которой он привлекает трафик.<br></p><p>Веб-мастер привлекает пользователей к себе на площадку &nbsp;откуда они переходят на сайт<br></p><p>рекламадателя<br></p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">See All Templates</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-c"
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "color": "#0275d8"
+            },
+            ".lead DIV": {
+              "font-size": "25px",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            },
+            ".lead": {
+              "font-size": "25px",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "color": "#085a1e"
+            },
+            ".btn": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "60px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButton": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1249.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#FFF8E0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#feeaba",
+            "overlayOpacity": "0.5"
+          },
+          "title": "<b>Какие бывают площадки </b><br><b>и </b><br><b>бизнес-модели</b><br><b><br></b>",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<b>*Свой сайт</b><div><br></div><div><b>*Блог</b>&nbsp;&nbsp;- информационный портал&nbsp;</div><div><br></div><div><b>*Форум</b> - &nbsp;тематический сайт&nbsp;</div><div>где пользователи задают друг другу вопросы&nbsp;</div><div>отвечают на них и общаются</div><div><br></div><div><b>*Товарная и купонная витрина</b> -&nbsp;подборка продуктов и</div><div>услуг нескольких рекламодателей или скидок и купонов на них.</div><div><br></div><div><b>*Кэшбэк</b> - платформа на которой собраны предложения по кэшбэку от множества рекламодателей.</div><div>Работает по такому принципу&nbsp;</div><div>рекламодатель платит веб-мастеру вознаграждение&nbsp;</div><div>а тот самостоятельно делит его между собой и покупателем&nbsp;</div><div>возвращая ему часть суммы от покупки</div><div><br></div><div>*<b>Рекомендательный сервис</b> -&nbsp;похож на форум где каждый может оставить отзыв о приобретённом товаре&nbsp;поделиться мнением&nbsp;опытом использования&nbsp;</div><div>реальными фотографиями</div><div><br></div><div><b>*Группа или блог в соцсетях</b> -\n Это может быть как персональный аккаунт &nbsp;так и тематическое сообщество &nbsp;</div><div>Наибольшей популярностью пользуются \n</div><div><b>ВКонтакте \n</b></div><div><b>Facebook \n</b></div><div><b>Instagram</b></div><div><b><br></b></div><div><b>*Ютуб</b> - в основном это распаковки товаров &nbsp;</div><div>обзоры новинок или видео\n</div><div><br></div><div><b>*Телеграм</b> - чаще всего веб-мастера делают каналы с полезными подборками и скидками на популярные товары &nbsp;</div><div>цифровую и бытовую технику \n </div><div>одежду и обувь &nbsp;</div><div>&nbsp; товары из Китая\n &nbsp;&nbsp;</div><div><br></div><div><b>*Арбитраж</b> -\n суть арбитража в том чтобы купить трафик дешевле &nbsp;а продать дороже &nbsp;</div><div>Разница это прибыль веб-мастера \n</div><div>Арбитражем можно заниматься через контекстную рекламу \n</div><div>в поисковых системах<b> Гугл</b> или <b>Яндекс</b> \n</div><div>таргетированную рекламу в социальных сетях \n</div><div>а также в баннерных и тизерных сетях\n</div><div><br></div><div><b>*Брокерский трафик</b> -\n чаще используется в финансовых офферах &nbsp;</div><div>В этой модели веб-мастер собирает заявки \n</div><div>данные пользователей на своём сайте \n</div><div>а потом передаёт их рекламодателю\n</div><div>Брокерский трафик запрещён в некоторых странах \n</div><div>поэтому необходимо уточнять у специалистов партнёрской сети \nс какими офферами вы можете через него работать&nbsp;</div><div><br></div><div><b>*Емейл рассылки</b> -\n если у веб-мастера есть база электронной почты пользователей &nbsp;он может проводить по ним рассылки с интересными предложениями рекламодателей </div><div>База должна быть собрана веб-мастером самостоятельно</div><div>а пользователи должны понимать \n</div><div>какую именно информацию они будут получать в рассылке \n</div><div>Если пользователь пожалуется на спам \n</div><div>веб-мастер может быть отключён от партнёрской программы \n</div><div>или даже партнёрской сети</div><div><br></div><div>__________________________________________________________________________</div><div><br></div><div><b>Любая площадка предполагает размещение качественного контента\n</b></div><div><b>Который может быть в формате текста \n</b></div><div><b>фотографий и иллюстраций а также\n</b></div><div><b>видео</b></div><div><b><br></b></div><div><b><br></b></div><div><b>\n</b></div><div><b>\n</b></div><div><b>*Для текстового блога</b>&nbsp;</div><div>подробные описания и инструкции с фотографиями</div><div>&nbsp;\n</div><div><b>*Для контекстной рекламы</b>&nbsp;</div><div>короткие но ёмкие объявления</div><div><br></div><div> \n</div><div>\n</div><div><b>*Для таргетированной рекламы</b>&nbsp;</div><div>текст плюс цепляющее изображение</div><div><br></div><div> \n</div><div>\n</div><div><b>*Для емейл рассылок</b>&nbsp;</div><div>информативные сообщения</div><div><br></div><div> \n</div><div><b>*Для витринных сайтов</b>&nbsp;</div><div>полные описания товаров или условий активации купонов</div><div><br></div><div> \n</div><div>\n</div><div><b>*Для Ютуб</b>&nbsp;</div><div>интересные видео и не менее интересные подписи под ними</div><div><br></div><div><br></div><div>\n</div><div>\n</div><div><b>Чем более качественный контент делает веб-мастер на своей площадке \n</b></div><div><b>тем охотнее рекламодатели с ним работают \n</b></div><div><b>и тем лучше условия веб-мастер может получить</b></div><div><b><br></b></div><div><b>---------------------------------------------------------------------------------</b></div><div><br></div><div>Что&nbsp;</div><div> такое&nbsp;</div><div><b>EPC&nbsp;</b> и<b>&nbsp; CR</b> </div><div>в арбитраже трафика</div><div><br></div><div><br></div><div><b>*EPC\n</b></div><div>Средний заработок со <b>100</b> переходов \n</div><div>Рассчитывается как отношение заработка всех веб-мастеров программы к числу кликов за определённый период \n</div><div>неделя - месяц - 3 месяца - год -  умноженное на <b>100 \n</b></div><div>Помогает веб-мастеру рассчитать и спланировать примерный заработок \nисходя из объёма трафика на его площадке&nbsp;</div><div><br></div><div><br></div><div><b>*CR</b>\n</div><div>Коэффициент конверсии который показывает отношение действий\n продаж или регистраций к переходам клики пользователей по партнёрской ссылке &nbsp;</div><div>Из него можем узнать какая часть пользователей перешли по ссылке веб-мастера \nи совершила заказ &nbsp;</div><div>На показатель <b>CR</b> влияет как качество работы веб-мастера так и рекламодателя\n</div><div><br></div><div><br></div><div><b><br></b></div><div><br></div>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success-outline btn-success\" href=\"#bottom\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-gift mbr-iconfont mbr-iconfont-btn\"></span>К &nbsp;БОНУСУ</a>   ",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-g"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showCaption": true,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f8c4bb",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.7
+          },
+          "title": "<b>Запрещённые виды трафика</b><br><b><br></b>",
+          "caption": "<p>Есть которыми пользоваться  категорически запрещено или нежелательно.<br></p><p>В первую очередь это <b>фродовый трафик</b>  осознанная и заранее спланированная попытка обмануть рекламодателя партнёрскую сеть или других веб-мастеров. </p><p> В случае если веб-мастер будет замечен  в мошенничестве и его вина будет доказанаон может быть отключён от партнёрской программы  и даже партнёрской сети а все действия его  не будут засчитаны.</p><p>ПРИМЕРЫ<br></p><p><b>*Мотивированный трафик\n</b></p><p>Когда веб-мастер готов поделиться своим доходом \nили каким-либо бонусом &nbsp;чтобы пользователь совершил целевое действие. Такой трафик может быть как плохим так и хорошим.</p><p><b>***Плохой мотивированный трафик</b>  \n</p><p>это Буксы и Системы Активной Рекламы. \nСхема их работы. Рекламодатель платит 50 рублей за каждого пользователя кто зарегистрируется в онлайн игре и пополнит игровой счёт только подтвержденный &nbsp;</p><p>Веб-мастер хочет обмануть рекламодателя \nидёт в Систему Активной Рекламы &nbsp;и размещает задание Зарегистрируйтесь в игре по моей ссылке и пополните счёт на 10 рубль плачу 60 рублей за регистрацию &nbsp;Пользователю не нужна эта игра он и не планирует в неё играть &nbsp;но ради вознаграждения готов зарегистрироваться.</p><p>Рекламодателю не нужен такой трафик в будущем он не принесёт ни активности в игре ни доходов</p><p><b>***Хороший мотивированный трафик\n</b></p><p>Веб-мастер устраивает розыгрыш \nусловие которого приобретение продукта рекламодателя &nbsp;а награда приз от того же самого рекламодателя или самого блогера . </p><p>Да у пользователей есть мотив это приз &nbsp;но при этом они лояльны к бренду так как действительно заинтересованы в покупке и совершат её &nbsp;чтобы этот приз получить</p><p>_______________________________________________________________</p><p><b>*Мимикрия под рекламодателя</b><br></p><p>\n</p><p>Веб-мастер не может создавать сайты \nи группы в соцсетях с упоминанием бренда рекламодателя делать площадки похожие на сайт рекламодателя а также осуществлять рассылки от его имени . </p><p>Рекламодатель не способен на 100% контролировать что веб-мастер размещает под его брендома тот может ввести пользователя в заблуждение</p><p>\n</p><p>Притворяться официальной площадкой сайтом - группой в соцсети - каналом рекламодателя ...запрещено</p><p>\n</p><p>покупатель должен понимать где официальный сайт рекламодателя а где предложение от партнёра </p><p>Не все виды трафика полезны.</p><p>_______________________________________________________________</p><p><b>*Кукистаффинг&nbsp;</b><br></p><p>Или подмена куки\n &nbsp;</p><p>Веб-мастера подменяют куки партнёров которые действительно приводят клиентов </p><p>При этом они не размещают никакой рекламы а делают это с помощью специальных скриптов и программ &nbsp;незаметных обычному пользователю &nbsp;</p><p>В результате они перебивают чужие куки &nbsp;получают заработок за тех &nbsp;кто на самом деле привёл пользователей &nbsp;и веб-мастера с качественным трафиком отказываются работать с партнёрской программой а рекламодатели платят ни за что&nbsp;</p><p>_______________________________________________________________</p><p><b>*Липовые заказы</b>\n</p><p>Веб-мастера могут самостоятельно делать заказы \nчтобы после отменить их и вернуть деньги либо размещать задания \nв Системах Активной Рекламы &nbsp;</p><p>Это также запрещено всеми партнёрскими программами ведь рекламодателям нужны реальные продажи</p><p>_______________________________________________________________</p><p><b>*Спам\n</b></p><p>\nЕсли пользователь не давал согласия на получение информации на электронную почту то такая рассылка будет считаться спамом при этом страдает рекламодатель потому что именно его бренд упоминается в рассылке для предотвращения таких ситуаций часто от веб-мастера требуют показать как он собирает почты и на какие условия соглашается пользователь при подписке &nbsp;</p><p>Только после этого он может начать работу с партнёрской программой&nbsp;</p><p>_______________________________________________________________</p><p><b>*Тизеры</b></p><p>Сочетание текста и небольшого изображения&nbsp;</p><p>Дразнят они интригующим посылом и в этом виде трафика нет ничего плохого если используются реальные условия акций и изображения продуктов </p><p>Но есть и желтые тизеры &nbsp;это формат объявлений в которых содержится заведомо ложная информация но по которым нельзя не кликнуть</p><p>_______________________________________________________________</p><p><b>*Кликандер - попандер - поп-ап\n</b></p><p>Это баннеры по которым чаще кликают случайно \n</p><p>Они появляются внезапно сразу после открытия сайта \nлибо являются активным фоном сайта когда при клике &nbsp;на любое свободное место пользователь переходит на другой ресурс &nbsp;</p><p>Большинство рекламодателей их не любят так как клики по таким баннерам нецелевые </p><p>Также они раздражают пользователей что негативно влияет на бренд рекламодателя </p><p>Использовать такие техники нужно с большой осторожностью &nbsp;например показывать поп-ап баннер в момент когда пользователь собирается уйти с сайта&nbsp;</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-i",
+          "_styles": {
+            ".mbr-section-title": {
+              "text-align": "center",
+              "color": "#f90700"
+            },
+            "P": {
+              "text-align": "center",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "24px"
+            },
+            "DIV": {
+              "color": "#051e2a"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#26272c",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2020. kraiton 1.It is forbidden to copy materials from the website for free. &nbsp; g-mail : <a href=\"mailto:kraiton379@gmail.com\">kraiton379@gmail.com</a>&nbsp; &nbsp;- &nbsp; Паблик в : <a href=\"https://vk.com/1kraiton\" target=\"_blank\">ВКонтакте</a>&nbsp; - &nbsp;<a href=\"https://glopart.ru/public/200039\" target=\"_blank\">Партнерская программа</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-l"
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center"
+            },
+            ".lead P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "60px"
+            },
+            ".lead": {
+              "color": "#0275d8"
+            },
+            ".mbr-section-title": {
+              "color": "#f90700"
+            },
+            ".btn": {
+              "font-size": "48px",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            },
+            ".mbr-section-title B": {
+              "font-size": "60px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": false,
+            "showButton": true,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#FFF8E0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "<br><b>БОНУС</b><br>",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"https://vk.cc/audX4D\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-gift mbr-iconfont mbr-iconfont-btn\"></span>БОНУС</a>         ",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-n"
+        }
+      ]
+    }
+  }
+}
